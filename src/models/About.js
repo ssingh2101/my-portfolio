@@ -20,7 +20,7 @@ const About = () => {
                               </ul>
                          </div>
                          <div className="col-sm-5 py-2 aboutimg">
-                              <img src={roofimg} style={{ backgroundPosition: "center", marginLeft: "40px", height: "75%" }} />
+                              <img src={roofimg} style={{ backgroundPosition: "center", marginLeft: "40px", height: "75%" }} alt="MyPhoto" />
                          </div>
                          <div className="col-sm-6  ">
                               <h2>A B O U T</h2>

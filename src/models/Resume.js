@@ -21,7 +21,7 @@ const Resume = () => {
                               </ul>
                          </div>
                          <div className="col-sm-5 py-3 aboutimg">
-                              <img src={desk} width="80%" height="90%" style={{ backgroundPosition: "center center", marginLeft: "40px" }} />
+                              <img src={desk} width="80%" height="90%" style={{ backgroundPosition: "center center", marginLeft: "40px" }} alt="Desk" />
                          </div>
                          <div className="col-sm-6  " style={{ display: "inline-block" }}>
                               <h2>R E S U M E</h2>

@@ -27,7 +27,7 @@ const Home = () => {
                               </div>
                          </div>
                          <div className="col-sm-3">
-                              <img src={myphoto} />
+                              <img src={myphoto} alt="MyPhoto" />
                          </div>
                          <div className="col-sm-2">
                               <ul id="contact" className="rotate" >
