@@ -1,3 +1,44 @@
-i {
-	margin-top: 50%;
+.resume {
+	background: #b8bedd;
+}
+
+.resumeimg {
+	height: 80%;
+}
+.aboutimg {
+	margin-left: -90px;
+}
+
+ul.alt {
+	list-style: none;
+	padding-left: 0;
+}
+
+ul.alt li {
+	border-top: solid 1px gray;
+	padding: 0.5em 0;
+}
+
+ul.alt li:first-child {
+	border-top: 0;
+	padding-top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+	.about-text {
+		margin-left: 15px;
+		margin-right: 15px;
+		margin-top: -50px;
+	}
+	.hidecontact {
+		display: none;
+	}
+	.resumeimg {
+		margin-left: 90px;
+	}
+	.resumedesc {
+		margin-top: -90px;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
 }

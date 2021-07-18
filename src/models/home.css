@@ -1,0 +1,48 @@
+@media only screen and (max-width: 600px) {
+	.icon {
+		margin-top: -150px;
+		margin-left: 25%;
+		/* transform: rotate(90deg); */
+		/* display: inline-table; */
+	}
+	.photo {
+		margin-left: -80px;
+	}
+	.show-inline {
+		display: inline;
+		margin-right: -130px;
+	}
+	.rotate {
+		margin-left: -115px;
+		margin-top: -160px;
+	}
+	.home-para {
+		margin-left: -20px;
+	}
+}
+
+.rotate {
+	top: 40px;
+	right: 50px;
+	font-size: 24px;
+	white-space: nowrap;
+	position: relative;
+}
+
+.show-inline {
+	margin-bottom: 55px;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+.photoedit {
+	height: 70%;
+	margin-left: 100px;
+}
+
+.home {
+	background-color: #f3dad5;
+}

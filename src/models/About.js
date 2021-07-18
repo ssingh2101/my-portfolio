@@ -1,28 +1,31 @@
 import React from 'react';
 import Base from '../components/Base';
-import roofimg from "../assets/roof-removebg-preview.png"
+import roofimg from "../assets/PYFB4139-removebg-preview.png"
 import { FaGithub, FaTwitter, FaLinkedin, FaFacebook, FaInstagram } from "react-icons/fa"
+import Footer from '../components/Footer';
+import "./about.css"
 
 
 const About = () => {
      return (
-          <div>
+          <div className="about">
                <Base />
                <div className="container mb-5">
                     <div className="row py-3">
                          <div className="col-sm-1">
-                              <ul id="contactinabout" className="rotate" >
-                                   <li><a href="https://twitter.com/Sandy96082" ><FaTwitter /></a></li>
-                                   <li><a href="https://github.com/ssingh2101" ><FaGithub /></a></li>
-                                   <li><a href="https://www.linkedin.com/in/sandeep-singh-93a79413b/" ><FaLinkedin /></a></li>
-                                   <li><a href="https://m.facebook.com/100002760355741/" ><FaFacebook /></a></li>
-                                   <li><a href="https://www.instagram.com/sandeepsingh96082/" ><FaInstagram /></a></li>
+                              <ul id="contactinabout" className="rotate hidecontact" >
+                                   <li className="left-aligned-contact"><a href="https://twitter.com/Sandy96082" ><FaTwitter /></a></li>
+                                   <li className="left-aligned-contact"><a href="https://github.com/ssingh2101" ><FaGithub /></a></li>
+                                   <li className="left-aligned-contact"><a href="https://www.linkedin.com/in/sandeep-singh-93a79413b/" ><FaLinkedin /></a></li>
+                                   <li className="left-aligned-contact"><a href="https://m.facebook.com/100002760355741/" ><FaFacebook /></a></li>
+                                   <li className="left-aligned-contact"><a href="https://www.instagram.com/sandeepsingh96082/" ><FaInstagram /></a></li>
                               </ul>
                          </div>
                          <div className="col-sm-5 py-2 aboutimg">
-                              <img src={roofimg} style={{ backgroundPosition: "center", marginLeft: "40px", height: "75%" }} alt="MyPhoto" />
+                              {/* <img src={roofimg} style={{ backgroundPosition: "center", marginLeft: "40px", height: "75%" }} alt="MyPhoto" /> */}
+                              <img className="b-w" src={roofimg} alt="MyPhoto" />
                          </div>
-                         <div className="col-sm-6  ">
+                         <div className="col-sm-6  py-2 about-text">
                               <h2>A B O U T</h2>
                               <hr />
 
@@ -38,6 +41,7 @@ const About = () => {
                          </div>
                     </div>
                </div>
+               <Footer />
           </div>
      )
 }
