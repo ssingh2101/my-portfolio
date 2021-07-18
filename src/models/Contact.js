@@ -15,7 +15,7 @@ const Contact = () => {
                               <h1 className="div-heading display-4">Get In Touch</h1>
                          </div>
                     </div>
-                    <div className="row  py-5">
+                    <div className="row  py-3">
                          <div className="col-sm-5 py-2">
                               <form>
                                    <div className="form-group">
