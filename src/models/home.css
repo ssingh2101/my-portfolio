@@ -8,12 +8,17 @@
 	.photo {
 		margin-left: -80px;
 	}
+
+	.photoedit {
+		max-width: 350px;
+	}
+
 	.show-inline {
 		display: inline;
 		margin-right: -130px;
 	}
 	.rotate {
-		margin-left: -115px;
+		margin-left: -85px;
 		margin-top: -160px;
 	}
 	.home-para {
