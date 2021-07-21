@@ -1,7 +1,3 @@
-.resume {
-	background: #b8bedd;
-}
-
 .resumeimg {
 	height: 80%;
 }
@@ -42,4 +38,8 @@ ul.alt li:first-child {
 		margin-left: 15px;
 		margin-right: 15px;
 	}
+}
+
+.resume {
+	background: #b8bedd;
 }

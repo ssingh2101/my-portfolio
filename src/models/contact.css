@@ -1,13 +1,19 @@
 body {
-	background: #cfe1b9;
+	background: #f8f8b4;
 }
 
 hr {
 	width: 100%;
 }
 
+.addr-field {
+	margin-bottom: 5vh;
+	font-family: cursive;
+}
+
 .address {
 	left: 10%;
+	font-weight: 800;
 }
 @media only screen and (max-width: 600px) {
 	.address {
