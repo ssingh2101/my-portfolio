@@ -17,6 +17,7 @@ const Contact = () => {
      });
 
      const isStringNonEmpty = (string) => {
+          console.log(state);
           return string.length > 0 && string !== ""
      }
 
