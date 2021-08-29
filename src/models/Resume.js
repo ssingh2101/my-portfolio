@@ -1,6 +1,5 @@
 import React from 'react';
 import Base from '../components/Base';
-import desk from "../assets/IMG_0727-removebg-preview.png"
 import { FaGithub, FaTwitter, FaLinkedin, FaFacebook, FaInstagram, FaDev } from "react-icons/fa"
 import "./resume.css"
 import Footer from '../components/Footer';
