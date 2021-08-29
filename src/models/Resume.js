@@ -7,6 +7,7 @@ import Footer from '../components/Footer';
 
 
 const Resume = () => {
+     const imageURL = `https://source.unsplash.com/430x500/?laptop,desk,random=${Math.random()}`;
      return (
           <div className="resume">
                <Base />
@@ -22,7 +23,7 @@ const Resume = () => {
                               </ul>
                          </div>
                          <div className="col-sm-5 py-3 aboutimg">
-                              <img className="resumeimg" src={desk} alt="Desk" />
+                              <img className="resumeimg" src={imageURL} alt="Desk" />
                          </div>
                          <div className="col-sm-6 resumedesc " style={{ display: "inline-block" }}>
                               <h2>R E S U M E</h2>

@@ -1,12 +1,13 @@
 import React from 'react';
 import Base from '../components/Base';
-import roofimg from "../assets/PYFB4139-removebg-preview.png"
 import { FaGithub, FaTwitter, FaLinkedin, FaFacebook, FaInstagram } from "react-icons/fa"
 import Footer from '../components/Footer';
 import "./about.css"
 
 
 const About = () => {
+     const imageURL = `https://source.unsplash.com/430x500/?laptop,desk,random=${Math.random()}`;
+
      return (
           <div className="about">
                <Base />
@@ -22,8 +23,7 @@ const About = () => {
                               </ul>
                          </div>
                          <div className="col-sm-5 py-2 aboutimg">
-                              {/* <img src={roofimg} style={{ backgroundPosition: "center", marginLeft: "40px", height: "75%" }} alt="MyPhoto" /> */}
-                              <img className="b-w" src={roofimg} alt="MyPhoto" />
+                              <img className="b-w" src={imageURL} alt="MyPhoto" />
                          </div>
                          <div className="col-sm-6  py-2 about-text">
                               <h2>A B O U T</h2>
