@@ -29,7 +29,7 @@ const Resume = () => {
                               <hr />
                               <h5>CURRENT STATUS</h5>
                               <p>I am working as a software developer with a experience of more than 2 years.</p>
-                              <p >While  my <a href="https://drive.google.com/file/d/1dGFBEQW8ugQDmP5JF20sh268TUSJtPGG/view?usp=sharing" style={{ textDecoration: "underline" }}>resume</a> and <a href="https://www.linkedin.com/in/sandeep-singh-93a79413b/"><FaLinkedin /></a> convey my past experience, I am currently busy hustling on:<br /></p>
+                              <p >While  my <a href="https://drive.google.com/file/d/1HcNO0OCMPsJmEAfO814LsAzTGsECE3_F/view?usp=sharing" style={{ textDecoration: "underline" }}>resume</a> and <a href="https://www.linkedin.com/in/sandeep-singh-93a79413b/"><FaLinkedin /></a> convey my past experience, I am currently busy hustling on:<br /></p>
                               <ul className="alt">
                                    <p>
                                         <li>Taking a deep dive into ReactJS and Redux</li>
